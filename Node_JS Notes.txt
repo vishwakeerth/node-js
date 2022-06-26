@@ -1,0 +1,20 @@
+NPM--
+
+npm-Its the package manager for js
+module-Indivisual file containing reusable code
+package-Directory with one or more module with a special file called package.json 
+        and this file has the metadata about the package
+package.json--Lets you manage the dependencies of your project
+              Helps to add scripts that helps in initial build of the project
+npm init --  =To create package.json file
+npm set init-author-name "__" = To add name
+npm set init-license "__" = To add License
+npm install package name = To install local package
+npm uninstall package name = To uninstall local package
+npm install package name -g = To install global package
+npm uninstall package name -g = To uninstall global package
+npm list = To list the local packages
+npm list --gloabl = To list the global packages
+npm prune = To remove unused packages
+
+NodeJS--

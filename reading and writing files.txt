@@ -1,0 +1,29 @@
+fs.rmdir() is an asynchronous function. This function accepts three params:
+
+path (<string>|<Buffer>|<URL>): 
+
+The folder name and its path which is to be deleted.
+options (<Object>)
+maxRetries<integer>: It is an integer value, used to specified the number of times the program will try to delete the directory if the operation fails with a specified retryDelay milliseconds interval. This option is ignored if the recursive option is false. Default value is 0.
+recursive<boolean>: If recursive is defined as true, the program will perform a recursive directory removal. In specified true, errors will not be reported if the directory path does not exist. Default is false.
+retryDelay <integer>: This declares the time in milliseconds to wait between retries. This option is ignored when recursive is false. Default is 100 milliseconds.
+callback <function>: callback function declaration, can be used to catch any possible errors or exceptions.
+
+Example : 
+
+const fs = require('fs');
+
+
+// directory path
+const dir = 'temp';
+
+
+// delete directory recursively
+try {
+fs.rmdirSync(dir, { recursive: true });
+
+
+console.log(`${dir} is deleted!`);
+} catch (err) {
+console.error(`Error while deleting ${dir}.`);
+}

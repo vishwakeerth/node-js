@@ -1,0 +1,22 @@
+Node.js Global Objects
+
+The Node.js Global Objects are listed below: 
+
+1.Class: 
+Buffer The Buffer class is an inbuilt globally accessible class that means it can be used without importing any module. 
+The Buffer class is used to deal with binary data. Buffer class objects are used to represent binary data as a sequence of bytes.
+
+2.TextDecoder: 
+It is an implementation of the WHATWG Encoding Standard TextDecoder AP.
+
+3.Class URL: 
+The URL class instance is a global object and is implemented by the following WHATWG URL Standard. 
+The URL constructor creates a new URL object as shown below. /foo is the input and https://www.helloworld.og/ is the base value.
+
+4.URLSearchParams: 
+URLSearchParams API is used to perform read and write operations on the query of a URL.
+
+5.__filename: 
+The output throws an error which proves that __filename is not globally defined in node.js. 
+It requires a script to give the desired output as __filename is only defined in scripts.
+

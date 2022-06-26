@@ -1,0 +1,11 @@
+How to send response from server to client using Node.js and Express.js ?
+
+
+1.Methods to send response from server to client are:
+
+Using send() function.
+Using json() function
+
+2.Required Module: Install the express module using the following command:
+
+npm install express

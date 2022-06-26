@@ -1,0 +1,23 @@
+Installation steps for  Node.js on Windows
+
+The Node can be installed in multiple ways on a computer. 
+The approach used by you depends on the existing development environment in the system. 
+There are different package installer for different environments. 
+You can install Node by grabbing a copy of the source code and compiling the application. 
+Another way of installing Node is by cloning the GIT repository in all the three environments and then installing it on the system.
+
+
+Step-1: Downloading the Node.js ‘.msi’ installer.
+Step-2: Running the Node.js installer
+
+	Double click on the .msi installer.
+        The Node.js Setup wizard will open.
+
+        Welcome To Node.js Setup Wizard.
+        Select “Next”
+	After clicking “Next”, End-User License Agreement (EULA) will open.
+        Check “I accept the terms in the License Agreement”
+
+         Select “Next”
+Step 3: Verify that Node.js was properly installed or not
+
